@@ -1,0 +1,159 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b1d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700; 
+}
+
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.offer {	
+	width: 580px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 20px;
+	width: 300px;
+}
+
+.logo {
+	font-size: 15px;
+}
+
+.title {
+	padding-top: 120px;
+}
+
+.header {
+	background: rgb(77,191,254);
+	background: -moz-linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4dbffe",endColorstr="#378fd9",GradientType=1);
+	padding-top: 100px; 
+	padding-bottom: 147px;
+	color: #fff;
+}
+
+.kruiz {
+	margin: 37px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ffd429;
+	color: black;  
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	background: #d9860e;
+}
+
+.section {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.skill-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+.section-title {
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+
+}
+
+.skill {
+	width: 350px;
+	background: url('../img/icon1.jpg') no-repeat top;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.skill-one {
+	background: url('../img/icon2.jpg') no-repeat top;
+}
+
+.skill-two {
+	background: url('../img/icon3.jpg') no-repeat top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 107px;
+	padding-bottom: 107px;
+	text-align: center;
+}
+
+.input {
+	width: 340px;
+	border: #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	height: 50px;
+	padding-left: 23px;
+
+}
+
+.btn {
+	border: 0;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 343px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.section-title {
+	padding-bottom: 65px;
+}
+
+.bot {
+	padding-bottom: 17px;
+}
+
+.kredits {
+	text-align: center;
+}
+
+.footer {
+	padding: 63px 0;
+	background: #164d7a;
+}
