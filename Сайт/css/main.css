@@ -7,7 +7,7 @@ body {
 }
 
 div, p, input, button, form, span, a, ul, li {
-	box-sizing: border-box;;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	padding-top: 120px;
+	font-size: 28px;
+}
+
+.title span {
+	font-size: 38px;
 }
 
 .header {
@@ -51,12 +55,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kruiz {
-	margin: 37px;
+	margin: 36px;
 }
 
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .button {
@@ -76,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
-	padding-top: 108px;
+	margin: 108px;
 	padding-bottom: 120px;
 }
 
@@ -128,7 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	height: 50px;
 	padding-left: 23px;
-
+	margin: 0 auto 15px;
+	display: block; 
 }
 
 .btn {
@@ -145,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 65px;
 }
 
-.bot {
+.input {
 	padding-bottom: 17px;
 }
 
