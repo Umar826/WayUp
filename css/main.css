@@ -1,165 +1,93 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	color: #201b1d;
-	font-size: 15px;
-	padding: 0;
-	margin: 0;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>WayUp регистрация</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-div, p, input, button, form, span, a, ul, li {
-	box-sizing: border-box;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700; 
-}
+	<header id="header" class="header">
+		<div class="conteiner">
+			<img src="img/WayUp.png" alt="WayUp" class="logo">
+		<div class="wrapper">
+			<div class="offer">
+				<h1 class="title">
+					Вы сможете отправиться в незабываемый<br>
+					<span>круиз!<span>
+				</h1>
+				<p class="intro">
+					Наши старания + ваша отзывчивость
+					гарант спокойного и веселого отдыха
+					с незабываемыми впечатлениями.
+				</p>
+				<a href="#" class="button">Узнать больше</a>
+			</div>
+			<img src="img/Cruiz.png" alt="WayUp" class="kruiz">
+			
+		</div>
+	</div>
+	</header>
 
-.conteiner {
-	width: 1170px;
-	margin: 0 auto;
-}
 
-.offer {	
-	width: 580px;
-}
+	<section id="section" class="section">
+		<div class="conteiner">
+			<h2 class="section-title">Почему именно мы?</h2>
+			<div class="skills">
+			<div class="skill">
+				<h3 class="skill-title">
+					Много времени
+				</h3>
+				<p class="skill-text">
+					Вы не будете думать о времени, когда будете отдыхать
+				</p>
+			</div>
+			<div class="skill skill-one">
+				<h3 class="skill-title">
+					Яркие путешествия
+				</h3>
+				<p class="skill-text">
+					Разве вы не мечтали о незабываемом отдыхе и лучших впечатлений?
+				</p>
+			</div>
+			<div class="skill skill-two">
+				<h3 class="skill-title">
+					Быстро передвижение
+				</h3>
+				<p class="skill-text">
+					Наш транспорт будет с вами весь круиз, где бы вы не находились
+				</p>
+			</div>
 
-.intro {
-	margin-bottom: 37px;
-	margin-top: 20px;
-	width: 300px;
-}
+		</div>
+		</div>		
+	</section>
 
-.logo {
-	font-size: 15px;
-}
 
-.title {
-	font-size: 28px;
-}
+	<section id="mail" class="mail">
+		<div class="conteiner">
+			<h2 class="section-title">Форма заказ билета</h2>
+			<form class="bot">
+				<input type="name" name="name" class="input" placeholder="Имя">
+				<input type="email" name="email" class="input" placeholder="E-mail">
+				<input type="phone" name="phone" class="input" placeholder="Телефон">
+				<input type="place" name="place" class="input" placeholder="Куда мы полетим в круиз?">
+				<button type="submit" class="button btn">Заказать билет</button>
+			</form>		
+	</section>
 
-.title span {
-	font-size: 38px;
-}
 
-.header {
-	background: rgb(77,191,254);
-	background: -moz-linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
-	background: linear-gradient(90deg, rgba(77,191,254,1) 4ebefe%, rgba(55,143,217,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4dbffe",endColorstr="#378fd9",GradientType=1);
-	padding-top: 100px; 
-	padding-bottom: 147px;
-	color: #fff;
-}
+	<footer class="footer">
+		<div class="conteiner">
+		<p class="kredits">
+			© Все права защищены
+		</p>	
+		</div>
+	</footer>
 
-.kruiz {
-	margin: 36px;
-}
 
-.wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.button {
-	font-family: 'Ubuntu', sans-serif;
-	background: #ffd429;
-	color: black;  
-	display: block;
-	width: 220px;
-	padding: 19px 0;
-	text-align: center;
-	text-decoration: none;
-	transition: all 0.5s ease;
-}
-
-.button:hover {
-	background: #d9860e;
-}
-
-.section {
-	margin: 108px;
-	padding-bottom: 120px;
-}
-
-.skill-text {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 400;
-}
-
-.section-title {
-	font-size: 30px;
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-}
-
-.skills {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 70px;
-
-}
-
-.skill {
-	width: 350px;
-	background: url('../img/icon1.jpg') no-repeat top;
-	padding-top: 100px;
-	text-align: center;
-}
-
-.skill-one {
-	background: url('../img/icon2.jpg') no-repeat top;
-}
-
-.skill-two {
-	background: url('../img/icon3.jpg') no-repeat top;
-}
-
-.mail {
-	background: #ecf3f8;
-	padding-top: 107px;
-	padding-bottom: 107px;
-	text-align: center;
-}
-
-.input {
-	width: 340px;
-	border: #bbbbbb;
-	font-size: 15px;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 400;
-	height: 50px;
-	padding-left: 23px;
-	margin: 0 auto 15px;
-	display: block; 
-}
-
-.btn {
-	border: 0;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
-	width: 343px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-}
-
-.section-title {
-	padding-bottom: 65px;
-}
-
-.input {
-	padding-bottom: 17px;
-}
-
-.kredits {
-	text-align: center;
-}
-
-.footer {
-	padding: 63px 0;
-	background: #164d7a;
-}
+</body>
+</html>
