@@ -159,8 +159,65 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-
 .footer {
 	padding: 63px 0;
 	background: #164d7a;
+}
+
+
+/*Reasponsiv*/
+
+
+/* 922px - 1200px */
+@media screen and (max-width: 1200px) {
+	.conteiner {
+		width: 960px;
+	}
+}
+
+/* 768px - 922px */
+@media screen and (max-width: 992px) {
+	.conteiner {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.logo {
+		padding-bottom: 60px;
+		margin: 0 auto;
+		padding-left: 64px;
+	}
+	.skill {
+		margin-left: 20px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.conteiner {
+		width: 540px;
+	}
+	.title {
+		margin-left: 107px;
+	}
+	.intro {
+		margin-left: 107px;
+	}
+	.btn {
+		margin-right: 90px;
+	}
+	.btn_lol {
+		margin-left: 107px;
+	}
+	.sills {
+		margin-right: 100px;
+	}
+}
+
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+	.conteiner {
+		width: 90%;
+	}
 }
