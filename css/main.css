@@ -189,6 +189,9 @@ h1, h2, h3, h4, h5, h6 {
 	.skills {
 		flex-direction: column;
 	}
+	.kruiz {
+		width: 410px;
+	}
 }
 
 /* 576px - 768px */
@@ -200,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 		flex-direction: column;
 	}
 	.kruiz {
-		width: 400px;
+    	max-width: 300px;
 	}
 }
 
