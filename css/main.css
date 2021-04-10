@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 		flex-direction: column;
 	}
 	.kruiz {
-		max-width: 550px; width:100%;
+		width: 400px;
 	}
 	.intro {
 		width: auto;
@@ -224,20 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 	.offer {
 		width: 100px;
 	}
+	body {
+		overflow-x: hidden;
+	}
 }
-
-	/*.title {
-		margin-left: 107px;
-	}
-	.intro {
-		margin-left: 107px;
-	}
-	.btn {
-		margin-right: 90px;
-	}
-	.btn_lol {
-		margin-left: 107px;
-	}
-	.sills {
-		margin-right: 100px;
-	}
